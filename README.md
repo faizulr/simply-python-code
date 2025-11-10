@@ -5,6 +5,7 @@ A simple Python game collection built with Pygame.
 ## Games Included
 - Snake Game - Classic snake game with arrow key controls
 - Number Guessing Game - Console-based guessing game
+- Tic-Tac-Toe - Classic 3x3 grid game for two players
 
 ## Requirements
 - Python 3.7+
@@ -22,11 +23,15 @@ python snake_game.py
 
 # Number Guessing Game (Console)
 python guess_game.py
+
+# Tic-Tac-Toe Game (Console)
+python tic_tac_toe.py
 ```
 
 ## Controls
 - **Snake Game**: Use arrow keys to move, avoid walls and yourself
 - **Number Guessing Game**: Follow console prompts
+- **Tic-Tac-Toe**: Enter numbers 1-9 to place your mark, players alternate turns
 
 ## Features
 - Score tracking
