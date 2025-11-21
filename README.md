@@ -8,6 +8,8 @@ A simple Python game collection built with Pygame.
 - Sum Game - Console-based arithmetic practice with ten random addition problems
 - Tic-Tac-Toe - Classic 3x3 grid game for two players
 - Fibonacci Generator - Generates Fibonacci series up to a specified number of digits
+- Random Sum Generator - Generates and sums a user-specified number of random integers
+
 
 
 ## Requirements
@@ -35,6 +37,9 @@ python tic_tac_toe.py
 
 # Fibonacci Generator (Console)
 python fibonacci_generator.py
+
+# Random Sum Generator (Console)
+python random_sum_generator.py
 ```
 
 ## Controls
