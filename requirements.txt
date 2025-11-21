@@ -1,1 +1,10 @@
+# Core Dependencies
 pygame>=2.0.0
+
+# Testing Dependencies
+pytest>=7.0.0
+
+# Development Dependencies (Optional)
+# These are only needed if you want to run the full test suite
+# unittest is part of Python standard library
+# math, random, sys, os, typing, itertools are all standard library modules
