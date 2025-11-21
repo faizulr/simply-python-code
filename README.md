@@ -7,6 +7,8 @@ A simple Python game collection built with Pygame.
 - Number Guessing Game - Console-based guessing game
 - Sum Game - Console-based arithmetic practice with ten random addition problems
 - Tic-Tac-Toe - Classic 3x3 grid game for two players
+- Fibonacci Generator - Generates Fibonacci series up to a specified number of digits
+
 
 ## Requirements
 - Python 3.7+
@@ -30,6 +32,9 @@ python sum_game.py
 
 # Tic-Tac-Toe Game (Console)
 python tic_tac_toe.py
+
+# Fibonacci Generator (Console)
+python fibonacci_generator.py
 ```
 
 ## Controls
