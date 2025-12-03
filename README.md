@@ -23,6 +23,9 @@ A comprehensive collection of Python console games and utilities featuring both 
 - **🧮 Basic Calculator** (`basic_calculator.py`): Four-operation calculator with error handling and input validation
 - **🔮 Number Sequence Predictor** (`number_predictor.py`): Advanced pattern recognition system supporting arithmetic, geometric, polynomial, Fibonacci, factorial, and exponential sequences
 
+### String & Text Utilities
+- **🔁 Palindrome Checker** (`palindrome_checker.py`): Checks if a string is a palindrome, ignoring case and punctuation. Includes a command-line interface for user input.
+
 ## 📋 Requirements
 
 ### System Requirements
@@ -86,6 +89,9 @@ python basic_calculator.py
 
 # Number Sequence Predictor - Pattern recognition
 python number_predictor.py
+
+# Palindrome Checker - String analysis
+python palindrome_checker.py
 ```
 
 ## 🎮 Game Controls & Features
@@ -140,7 +146,8 @@ pytest . -v  # Run all pytest tests
 |-----------|-------|-------|----------|
 | Games | 4 | 15+ | 100% |
 | Utilities | 4 | 20+ | 100% |
-| Total | 8 | 35+ | 100% |
+| **String Tools** | 1 | 3+ | 100% |
+| Total | 9 | 38+ | 100% |
 
 ## 🚀 Advanced Features
 
