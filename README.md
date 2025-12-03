@@ -22,6 +22,7 @@ A comprehensive collection of Python console games and utilities featuring both 
 - **🎲 Random Sum Generator** (`random_sum_generator.py`): Creates and sums user-defined quantities of random integers with range customization
 - **🧮 Basic Calculator** (`basic_calculator.py`): Four-operation calculator with error handling and input validation
 - **🔮 Number Sequence Predictor** (`number_predictor.py`): Advanced pattern recognition system supporting arithmetic, geometric, polynomial, Fibonacci, factorial, and exponential sequences
+- **π Pi Generator** (`pi_generator.py`): Generates Pi to a user-specified number of decimal places using the Chudnovsky algorithm for high precision
 
 ### String & Text Utilities
 - **🔁 Palindrome Checker** (`palindrome_checker.py`): Checks if a string is a palindrome, ignoring case and punctuation. Includes a command-line interface for user input.
@@ -92,6 +93,9 @@ python number_predictor.py
 
 # Palindrome Checker - String analysis
 python palindrome_checker.py
+
+# Pi Generator - High precision calculation
+python pi_generator.py 50
 ```
 
 ## 🎮 Game Controls & Features
@@ -127,6 +131,7 @@ python test_syntax.py
 python test_basic_calculator.py
 python test_tic_tac_toe.py
 python test_number_predictor.py
+python test_pi_generator.py
 
 # Run with pytest (advanced testing)
 pytest test_sum_game.py -v
