@@ -26,6 +26,7 @@ A comprehensive collection of Python console games and utilities featuring both 
 
 ### String & Text Utilities
 - **🔁 Palindrome Checker** (`palindrome_checker.py`): Checks if a string is a palindrome, ignoring case and punctuation. Includes a command-line interface for user input.
+- **🔤 Random String Generator** (`random_string_generator.py`): Creates random strings with customizable length and character sets for passwords or tokens.
 
 ## 📋 Requirements
 
@@ -93,6 +94,10 @@ python number_predictor.py
 
 # Palindrome Checker - String analysis
 python palindrome_checker.py
+
+# Random String Generator - Custom length and character sets
+# Example: 32-character string with uppercase letters and punctuation only
+python random_string_generator.py -l 32 --no-lowercase --no-digits --punctuation
 
 # Pi Generator - High precision calculation
 python pi_generator.py 50
