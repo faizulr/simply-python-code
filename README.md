@@ -1,3 +1,4 @@
+<!-- filepath: c:\Users\faiza\OneDrive\Documents\Tools\rovodev\project1\README.md -->
 # Python Game & Utility Collection
 
 A comprehensive collection of Python console games and utilities featuring both command-line and GUI applications. Perfect for learning Python programming concepts, game development, and mathematical algorithms.
@@ -19,6 +20,7 @@ A comprehensive collection of Python console games and utilities featuring both 
 
 ### Mathematical & Computational Tools
 - **🌀 Fibonacci Generator** (`fibonacci_generator.py`): Generates Fibonacci sequences up to specified digit limits with performance statistics
+- **📊 Fibonacci Sum Calculator** (`sum_fibonacci.py`): Generates the first n Fibonacci numbers and calculates their sum with command-line interface
 - **🎲 Random Sum Generator** (`random_sum_generator.py`): Creates and sums user-defined quantities of random integers with range customization
 - **🧮 Basic Calculator** (`basic_calculator.py`): Four-operation calculator with error handling and input validation
 - **🔮 Number Sequence Predictor** (`number_predictor.py`): Advanced pattern recognition system supporting arithmetic, geometric, polynomial, Fibonacci, factorial, and exponential sequences
@@ -83,6 +85,9 @@ python tic_tac_toe.py
 # Fibonacci Generator - Mathematical sequences
 python fibonacci_generator.py
 
+# Fibonacci Sum Calculator - Generate first n Fibonacci numbers and sum them
+python sum_fibonacci.py -n 5
+
 # Random Sum Generator - Number operations
 python random_sum_generator.py
 
@@ -125,6 +130,28 @@ python pi_generator.py 50
 - **Features**: Turn-based play, win detection, replay option
 - **Goal**: Get three in a row (horizontal, vertical, or diagonal)
 
+## 📊 Fibonacci Sum Calculator
+
+### Overview
+The `sum_fibonacci.py` script generates the first n Fibonacci numbers (starting with 1, 1, 2, 3, 5, ...) and calculates their sum.
+
+### Usage
+```bash
+python sum_fibonacci.py -n 10
+```
+
+### Output Example
+```
+First 10 Fibonacci numbers: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+Sum = 143
+```
+
+### Features
+- **Command-line interface** with required `-n` argument
+- **Type validation** for non-negative integers
+- **Error handling** with informative error messages
+- **Type hints** for better code clarity
+
 ## 🧪 Testing
 
 ### Run All Tests
@@ -155,9 +182,9 @@ pytest . -v  # Run all pytest tests
 | Component | Files | Tests | Coverage |
 |-----------|-------|-------|----------|
 | Games | 4 | 15+ | 100% |
-| Utilities | 4 | 20+ | 100% |
+| Utilities | 5 | 20+ | 100% |
 | **String Tools** | 1 | 3+ | 100% |
-| Total | 9 | 38+ | 100% |
+| Total | 10 | 38+ | 100% |
 
 ## 🚀 Advanced Features
 
