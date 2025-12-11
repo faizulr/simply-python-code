@@ -25,6 +25,7 @@ A comprehensive collection of Python console games and utilities featuring both 
 - **🧮 Basic Calculator** (`basic_calculator.py`): Four-operation calculator with error handling and input validation
 - **🔮 Number Sequence Predictor** (`number_predictor.py`): Advanced pattern recognition system supporting arithmetic, geometric, polynomial, Fibonacci, factorial, and exponential sequences
 - **π Pi Generator** (`pi_generator.py`): Generates Pi to a user-specified number of decimal places using the Chudnovsky algorithm for high precision
+- **🔢 Number Guesser** (`number_guesser.py`): Uses binary search algorithm to guess a user's number within a range with minimal questions
 
 ### String & Text Utilities
 - **🔁 Palindrome Checker** (`palindrome_checker.py`): Checks if a string is a palindrome, ignoring case and punctuation. Includes a command-line interface for user input.
@@ -106,6 +107,9 @@ python random_string_generator.py -l 32 --no-lowercase --no-digits --punctuation
 
 # Pi Generator - High precision calculation
 python pi_generator.py 50
+
+# Number Guesser - Binary search demonstration
+python number_guesser.py
 ```
 
 ## 🎮 Game Controls & Features
